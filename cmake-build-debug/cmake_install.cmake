@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Kinetics/Desktop/Software Engineering Projects/C-SampleProgram-EmployeeSalary
+# Install script for directory: C:/Users/Kinetics/Desktop/Git Repositories/P1-CS1C-1Sem-EmployeeSalary
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Kinetics/Desktop/Software Engineering Projects/C-SampleProgram-EmployeeSalary/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Kinetics/Desktop/Git Repositories/P1-CS1C-1Sem-EmployeeSalary/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

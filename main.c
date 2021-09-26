@@ -22,7 +22,7 @@
 
 int main() {
 
-    char empCode[3];
+    char empCode[10];
     float ratePerHour, hrsWorked, salaryOfEmployee;
 
     // Grab the Employee Code
