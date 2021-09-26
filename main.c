@@ -22,19 +22,20 @@
 
 int main() {
 
-    char empCode[10];
+    // Employee code only accepts three-digit code
+    char empCode[3];
     float ratePerHour, hrsWorked, salaryOfEmployee;
 
     // Grab the Employee Code
-    printf("Employee Code: ");
+    printf("\nEmployee Code:");
     scanf("%s", empCode);
 
     // Rate Per Hour
-    printf("Rate per Hour: ");
+    printf("Rate per Hour:");
     scanf("%f", &ratePerHour);
 
     // Number of hours worked
-    printf("Number of hours worked: ");
+    printf("Number of hours worked:");
     scanf("%f", &hrsWorked);
 
     salaryOfEmployee = ratePerHour * hrsWorked;
