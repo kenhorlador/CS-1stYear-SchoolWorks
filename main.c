@@ -31,15 +31,15 @@ int main() {
     float ratePerHour, hrsWorked, salaryOfEmployee;
 
     // Grab the Employee Code
-    printf("\nEnter your Employee Code(only accepts three-digit code):");
+    printf("\nEnter your Employee Code(three-digit code): ");
     scanf("%s", empCode);
 
     // Grab the Employee's Rate Per Hour
-    printf("Rate per Hour:");
+    printf("Rate per Hour: ");
     scanf("%f", &ratePerHour);
 
     // Grab the Number of hours worked
-    printf("Number of hours worked:");
+    printf("Number of hours worked: ");
     scanf("%f", &hrsWorked);
 
     /*
