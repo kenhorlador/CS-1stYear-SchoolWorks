@@ -26,7 +26,8 @@
 
 int main() {
 
-    // Employee code only accepts three-digit code
+    // Variable Declaration
+    // Employee code cuts down length to just 3-digit if it exceeds to 3-digit
     char empCode[3];
     float ratePerHour, hrsWorked, salaryOfEmployee;
 
@@ -45,7 +46,7 @@ int main() {
     /*
      Calculate the employee's salary based on his/her
      rate per hour and total hours worked
-     * */
+    */
     salaryOfEmployee = ratePerHour * hrsWorked;
 
     // Space to separate the input value and the output
@@ -57,7 +58,8 @@ int main() {
            "---------------------------------------------------\n"
            "Salary of Employee: %.2f\n"
            "---------------------------------------------------\n",
-           empCode, ratePerHour, hrsWorked, salaryOfEmployee);
+           empCode, ratePerHour, hrsWorked, salaryOfEmployee
+           );
 
     return 0;
 }
