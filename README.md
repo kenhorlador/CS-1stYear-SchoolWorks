@@ -8,4 +8,13 @@ In this program, I used C version 99 to write  this program, it prints the salar
 
 <hr>
 
-You may clone this repository using `https://github.com/kenhorlador/CS-1stYear-SchoolWorks.git` as the address of the repository.
+<h2>Sample Output =></h2>
+<img src="https://github.com/kenhorlador/P1-CS1C-1Sem-EmployeeSalary/blob/main/img/CS1C-EmployeeSalary-ImageSampleOutput.png">
+
+<hr>
+
+<h3>You may clone this repository using </h3>
+
+```bash
+https://github.com/kenhorlador/CS-1stYear-SchoolWorks.git
+``` 
